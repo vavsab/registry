@@ -39,6 +39,10 @@
     {
       "repoSlug": "rootlyhq/pulumi-rootly",
       "schemaFile": "provider/cmd/pulumi-resource-rootly/schema.json"
+    },
+    {
+      "repoSlug": "pulumi/pulumi-aws-static-website",
+      "schemaFile": "schema.json"
     }
   ]
 }
