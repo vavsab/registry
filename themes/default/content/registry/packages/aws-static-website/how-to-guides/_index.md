@@ -22,7 +22,6 @@ This component deploys and configures the following types of infrastructure reso
 
 This is an example of how to use this component in its simplest form. Here, we will just provision an S3 bucket to house the website's contents. This will only provision the bucket and upload the website files to the bucket that are located in the `sitePath` directory.
 
-
 {{< chooser language "typescript,yaml" >}}
 {{% choosable language typescript %}}
 
@@ -60,7 +59,6 @@ In the example above we simply created a new static website resource and specifi
 ## S3 + CloudFront Example
 
 This examples shows how to use this component to provision a static website using S3 along with a CloudFront CDN to serve the content. Here, we will provision the S3 bucket to house website content, a CloudFront distribution to serve the content, an ACM certificate to enable serving over HTTP, an s3 bucket to house access logs, and a Route53 record to associate the domain name with the CloudFront distribution. Note: in this example we will be specifying a target domain. If public access is intended, it is assumed you own this domain as well as have a hosted zone configured in Route53 for the domain. For information on how to configure a public hosted zone see this AWS [doc](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/CreatingHostedZone.html).
-
 
 {{< chooser language "typescript,yaml" >}}
 {{% choosable language typescript %}}
