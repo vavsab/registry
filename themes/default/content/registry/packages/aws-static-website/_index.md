@@ -8,7 +8,7 @@ This component makes it easy to deploy a static website to s3 along with an opti
 
 ## Examples
 
-{{< chooser language "typescript,python,go,csharp,yaml" >}}
+{{< chooser language "typescript,yaml" >}}
 {{% choosable language typescript %}}
 
 ```typescript
@@ -33,25 +33,6 @@ outputs:
 ```
 
 {{% /choosable %}}
-{{% choosable language python %}}
-
-```python
-```
-
-{{% /choosable %}}
-{{% choosable language go %}}
-
-```go
-```
-
-{{% /choosable %}}
-{{% choosable language csharp %}}
-
-```csharp
-```
-
-{{% /choosable %}}
-
 {{< /chooser >}}
 
 ## Input Properties
